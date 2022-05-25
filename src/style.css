@@ -1,0 +1,57 @@
+/*------ FORMULARIO DE TARJETA----*/
+
+.formulario-tarjeta {
+background-color: beige;
+width: 100%;
+max-width: 700px;
+padding:150px, 30px, 30px, 30px ;
+border-radius: 10px;
+text-align: center;
+display: block;
+flex-direction: column;
+justify-content: center;
+align-items: center
+}
+
+/*---de los label---*/
+.formulario-tarjeta label{
+    display: block;
+    color: dimgrey;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.formulario-tarjeta input,
+.formulario-tarjeta select {
+    border: 2px solid #CED6E0;
+    font-size: 18px;
+    height: 20px;
+    width: 300px;
+    padding: 5px 12px;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+.btn-comprar {
+    border: 2px solid #9edd38;
+    background-color: #c2fa67;
+    font-size: 18px;
+    height: 40px;
+    width: 300px;
+    margin: 20px;
+    padding: 12px 12px;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+.formulario-tarjeta input:hover,
+.formulario-tarjeta select:hover{
+    border: 2px solid #93BDED;
+}
+
+.formulario-tarjeta input:focus,
+.formulario-tarjeta select:focus{
+    outline: rgb(4, 4,4) ;
+    box-shadow: 1px 7px 10px -5px rgba(90,116,148,0);
+}
+

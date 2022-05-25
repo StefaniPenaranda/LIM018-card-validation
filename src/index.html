@@ -2,16 +2,50 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>SKY SHOPI- TIENDA DE ROPA </title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+       <h1>FINAL SALE, OFERTAS DESDE EL 50% EN PRENDAS SELECIONADAS</h1> 
+       <H2>sky Shopi, </H2>
+          <ul>
+            <li><a href="#"> INICIO </a></li>
+            <li><a href="#"> POLOS </a></li>
+            <li><a href="#"> PANTALÓN </a></li>
+            <li><a href="#"> POLERAS </a></li>
+          </ul>
+       
+    </header>
     <main>
-      <p>prueba de github</p>
-      <p>mas cambios de prueba</p>
+      <img src="/src/imagenes/fondo.png" alt="new collection" width="100px" height="100px"/>
+      <h3>NUEVOS INGRESOS</p>
+        <img src="/src/imagenes/pant.jpeg" alt="pantalón"/> <br />
+      <button class="comprar">comprar</button>
     </main>
-    <footer></footer>
+    <footer>
+      <form id="formulario-tarjeta" class="formulario-tarjeta">
+        <div class="numeroTarjeta">
+          <label for="inputNumero"> Numero de tarjeta </label>
+          <input type="text" id="inputNumero" maxlength="16" autocomplete="off">
+        </div>
+        <div class="nombre">
+          <label for="inputNombre"> Nombre</label>
+          <input type="text" id="inputNombre" >
+        </div>
+        <div class="flexbok">
+          <div class="fecha">
+            <label for="inputFecha">fecha </label>
+            <input type="text" id="inputFecha">
+          </div>
+          <div class="Cvv">
+            <label for="inputCvv">Cvv </label>
+            <input type="text" id="inputCvv" maxlength="3">
+          </div>
+        </div>
+        <button type="submit" class="btn-comprar"> comprar</button>
+      </form>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

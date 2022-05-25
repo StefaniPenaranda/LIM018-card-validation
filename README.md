@@ -223,6 +223,7 @@ En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proc
 para definir el producto final a nivel de experiencia y de interfaz.
 
 * Quiénes son los principales usuarios de producto.
+*Los principales usuarios de la pagina serián  
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
@@ -234,6 +235,7 @@ La interfaz debe permitir al usuario:
 * Ver el resultado si es válido o no.
 * Ocultar todos los dígitos de su número de tarjeta menos los últimos
 4 caracteres.
+caracteres de corea.  
 * No debe poder ingresar un campo vacío.
 
 ### UX (Diseño de experiencia de usuario)
