@@ -29,12 +29,13 @@ let total = 0;
 numeroTarjeta.forEach( e => total += e)
 console.log(total);
 
-  if (total % 10 === 0){
+ /* if (total % 10 === 0){  
   return true;
   }
   else{
   return false;
-  }
+  }*/
+return (total % 10 ===0)? true : false;
 },
 
 maskify: (numeroTarjeta)=> {
@@ -42,6 +43,7 @@ maskify: (numeroTarjeta)=> {
   let sacando= numeroTarjeta.slice(-4,numeroTarjeta.legnth)
   return tapandonumero + sacando
 },
+
 };
 
 export default validator;
