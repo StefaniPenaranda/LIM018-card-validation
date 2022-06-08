@@ -27,7 +27,7 @@ const validator = {
 // Sumamos todos los elementos del arreglo   
 let total = 0;
 numeroTarjeta.forEach( e => total += e)
-console.log(total);
+//console.log(total);
 
  /* if (total % 10 === 0){  
   return true;

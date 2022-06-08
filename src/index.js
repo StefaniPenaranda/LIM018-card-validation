@@ -21,41 +21,49 @@ prod3.addEventListener('click', cerrar);
 
 const comprar = document.querySelector('#comprar');
 
-//OBTENIEnDO los datos de los input 
+//OBTENIENDO LOS DATOS DE INPUT
 
 const cardNumber = document.querySelector('#inputNumero');
 let tarjeta = '';
 cardNumber.addEventListener('input',()=>{
-    tarjeta += cardNumber.value
-    console.log(tarjeta)
-    let mascara = validator.maskify(cardNumber.value);
-
-    cardNumber.value = mascara
-    
+    tarjeta = cardNumber.value;
 })
 
-comprar.addEventListener('click',e =>{
-    e.preventDefault();
+//MODAl
+const modal= document.querySelector('.modal');
+const modalInvalido = document.querySelector('.modal-tarjeta-invalid');
+const modalClouse = document.querySelector('.modal_clouse');
+const modalClouseInv = document.querySelector('.modal_clouseinvalid');
+const modalIncompleto = document.querySelector('.modalIncompleto');
+const modalCluseInc = document.querySelector('.modal_clouseIncompleto');
+
+//APLICANDO EL ISVALID Y MASKIFY
+comprar.addEventListener('click',(event) =>{
+    event.preventDefault();
    
-    
     const validacion = validator.isValid(tarjeta);
-    alert(tarjeta);
-    if(validacion){
-        alert('trajeta valida, pago procesado')
-    } else{
-        alert('tarjeta invalida')
+    if( !tarjeta){
+        modalIncompleto.style.display= 'block';
+        return
     }
-} )
 
+    if(validacion){
+        modal.style.display= 'block'; 
+    } else{
+         modalInvalido.style.display= 'block';    
+    }
+    let mascara= validator.maskify(tarjeta);
+    cardNumber.value= mascara
+})
 
+modalClouse.addEventListener('click',()=>{
+    modal.style.display= 'none'; 
+})
 
+modalClouseInv.addEventListener('click',()=>{
+    modalInvalido.style.display= 'none'; 
+})
 
-
-
-
-
-
-
-
-// console.log(validator.isValid('123456789'));
-// console.log(validator.maskify('123456789'));
+modalCluseInc.addEventListener('click', ()=>{
+    modalIncompleto.style.display = 'none';
+})

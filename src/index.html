@@ -7,7 +7,9 @@
   </head>
   <body>
     <header class="header">
-      <h1>FINAL SALE, OFERTAS DESDE EL 50% EN PRENDAS SELECIONADAS</h1> 
+      <section class="h1">
+        <h1>FINAL SALE, OFERTAS DESDE EL 50% EN PRENDAS SELECIONADAS</h1> 
+      </section>
       <nav>
         <ul class="nav-rigth-section">
           <li class="logosky">
@@ -17,7 +19,7 @@
           <li><a href="#"> PANTALÓN </a></li>
           <li><a href="#"> POLERAS </a></li>
           <div class="main-input-container"> 
-            <input type="text"> </input>
+            <input type="text"> 
             <spam class="search-icon"> 
             </spam>
           </div>
@@ -27,8 +29,7 @@
       </nav>
     </header>
 
-    <main>
-      
+    <main>    
  <!--SECCIÓN IMG Y OCPION DE COMPRAS----------------> 
  <div class="contenedor1">
       <section class="portada"><img src="/src/imagenes/fondo.png" alt="new collection" /></section>
@@ -53,7 +54,7 @@
           <button class="comprar" id="prod3">SELECCIONAR</button>
         </div>
       </section>
-  </div>
+ </div>
 
   <div class="contenedor2">
     <form id="formulario-tarjeta" class="formulario-tarjeta">
@@ -75,9 +76,35 @@
             <input type="text" id="inputCvv" maxlength="3">
           </div>
         </div>
-        <button type="submit" class="btn-comprar" id="comprar"> comprar</button>
+        <button type="submit" class="btn-comprar" id="comprar"> COMPRAR</button>
       </form>
     </div>
+<!-- ---------------- -M O D A L- --------------->
+  <section class="modal">
+      <div class="modal-container">
+        <img class="modal_img" src="imagenes/tarjetaValida.png" alt="tarjetavalida">
+        <h2 class="modal_Title">GRACIAS POR TU COMPRA</h2>
+        <p class="modal_paragraph">Feliciades tu número de tarjeta es valida, tu orden de compra fue emitida. Tu pedido te estara llegando en un maximo de 3 días hábiles.</p>
+        <a href="#" class="modal_clouse">CERRAR</a>
+      </div> 
+  </section>
+  <section class="modal-tarjeta-invalid">
+    <div class="modal-invalid">
+      <img class="modal_imginvalid" src="imagenes/tarjetainvalida.png" alt="tarjetavalida">
+      <h2 class="modal_Titleinvalid">NUMERO DE TARJETA INVALIDA</h2>
+      <p class="modal_paragraphinvalid">Por favor ingrese un número de tarjeta valida, para poder continuar con su compra.</p>
+      <a href="#" class="modal_clouseinvalid">CERRAR</a>
+    </div> 
+  </section>
+  <section class="modalIncompleto">
+    <div class="modal-Incompleto">
+      <img class="modal_imgIncompleto" src="imagenes/tarjetaAzul2.png" alt="tarjetavalida">
+      <h2 class="modal_TitleIncompleto">DATOS INCOMPLETOS</h2>
+      <p class="modal_paragraphIncompleto">Por favor ingrese su número de tarjeta, para poder continuar con su compra </p>
+      <a href="#" class="modal_clouseIncompleto">CERRAR</a>
+    </div> 
+  </section>
+
     </main>
 
     <footer>
