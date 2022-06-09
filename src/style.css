@@ -388,3 +388,15 @@ margin: 70px 0 ;
     color: #93BDED;
     background-color: aliceblue;
 }
+.footerMovies {
+    position: absolute;
+    width: 455px;
+    height: 24px;
+    left: 529px;
+    top: 720px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+   
+    color: #000000;
+  }
