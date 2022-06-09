@@ -90,3 +90,5 @@ Puede confirmar que su tarjeta es válida.
 Puede realizar un pago seguro.
 Evita hacer el pago con personas intermediarias, transferencias o depósitos.
 Tener que trasladarse a pagar de forma presencial, puede realizar el pago desde cualquier parte.
+ "[imagen final 1](src/imagenes/fondo.png)
+ 
