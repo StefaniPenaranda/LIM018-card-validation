@@ -18,19 +18,17 @@
 Mi proyecto es una tienda de ropa de la mejor calidad de Perú, con stock limitado y los mejores diseños.
 
 ## 2. Imagen final de proyecto
+
 (https://www.figma.com/file/TBz5kjDisk3DXD72wv0kOi/Untitled?node-id=0%3A1)
 
 ## 3. Investigación UX
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
-### 3.1. Usuario i
+### 3.1. Usuario 
 
-En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
-para definir el producto final a nivel de experiencia y de interfaz.
-
-* Quiénes son los principales usuarios de producto.
-*Los principales usuarios de la pagina serián  
+* Jovenes de entre 15 y 29 años 
+* Interesados en la moda overside y aesthetic  
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
@@ -47,6 +45,7 @@ caracteres de corea.
 
 ### 3.3. Finalidad
 
+![imagen final 1](src/imagenes/fondo.png)
 Antes de iniciar a codear, debes entender el problema que quieres solucionar y
 cómo tu aplicación lo soluciona.
 
@@ -81,7 +80,7 @@ Debe contener lo siguiente:
 Los usuarios de la aplicación son personas que disfrutan ver películas desde la comodidad de su hogar. Los usuarios de MyMovies.com desean acceder al servicio de forma segura y saber que sus datos son efectivamente válidos y ocultados.
 
 📦 Producto
-La aplicación de MyMovies permite que los usuarios puedan validar su tarjeta de crédito y enmascarar esta a través de un formulario que les permite ingresar sus datos y un botón que permite realizar ambas funcionalidades.
+La aplicación de MyMovies permite que los usuarios puedan validar su tarjeta de crédito y enmascarar esta a través de un formulario que les permite ingresar sus datos y un botón que permite realizar ambas funcionalidades.wwwgit statu
 ¿Cómo mi producto resuelve un problema o necesidad?
 Mi producto resuelve los siguientes problemas del usuario:
 

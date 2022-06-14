@@ -9,7 +9,6 @@ const validator = {
   //
   let aux = 1;//estoy asignando el valor 1 al indice del array 
 
-
   // empezando con Lunch
   numeroTarjeta = numeroTarjeta.map ( i => {
     if ( aux % 2 === 0){

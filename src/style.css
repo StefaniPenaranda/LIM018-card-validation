@@ -34,8 +34,6 @@ main{
 }
 nav{
     display: flex;
-    align-items: flex-start;
-    border: 1px solid #a1bdb7d5;
     max-height: 100%;
 }
 .nav-rigth-section{
@@ -389,7 +387,7 @@ margin: 70px 0 ;
     background-color: aliceblue;
 }
 .footerMovies {
-    position: absolute;
+   /* position: absolute;*/
     width: 455px;
     height: 24px;
     left: 529px;
@@ -397,6 +395,11 @@ margin: 70px 0 ;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-   
-    color: #000000;
+    color: #4b4a4a;
+    display: flex;
+    align-items: center;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
   }
