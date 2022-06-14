@@ -1,6 +1,6 @@
 # validación de tarjeta para SKY.SHOPI
  
- En esta tienda virtual podrás encontrar las ultimas tendencias en moda aestetic y overside. 
+ En esta tienda virtual podrás encontrar las ultimas tendencias en moda aesthetic y overside. 
 
 ## Índice
 
@@ -27,30 +27,30 @@ Mi proyecto es una tienda de ropa de la mejor calidad de Perú, con stock limita
 
 Vanesa en una joven de 18 años, a ella le gusta mucho esta a la moda y verse bien cuando sale con su amigos a pasear o a fiestas pero tambien le gusta estar comoda cuando va a su universidad, ella hace la mayoria de sus trabajos o cosas pendientes de moche es por eso que le gusta comrpar por internet.
 
-*Joven entre los 18 y 25 años.
-*Hombre o mujer que le guste la moda aesthetic y overside.
-*Persona que le gusta comprar por linea.
+* Joven entre los 18 y 25 años.
+* Hombre o mujer que le guste la moda aesthetic y overside.
+* Persona que le gusta comprar por linea.
 
 ### 3.2. Objetivos
 
-*Crear una tienda virtual donde se pueda comprar ropa me manera facil y rapida.
-+Que el precio y el nombre de las prendas sea visible.
-*Escribir datos personales para adquirir la compra.
-*Poner mi número de tarjeta de crédito para comprobar la validez.
-*Realizar la compra.
+* Crear una tienda virtual donde se pueda comprar ropa me manera facil y rapida.
+* Que el precio y el nombre de las prendas sea visible.
+* Escribir datos personales para adquirir la compra.
+* Poner mi número de tarjeta de crédito para comprobar la validez.
+* Realizar la compra.
 
 ### 3.3. Finalidad
 
-*Una pagina segura para comprar en linea y pode sentirte seguro al momento de realizar tu compra.
-*Puede confirmar que su tarjeta es válida.
-*Evita hacer el pago con personas intermediarias, transferencias o depósitos.
-*Tener que trasladarse a pagar de forma presencial, puede realizar el pago desde cualquier parte.
+* Una pagina segura para comprar en linea y poder sentirte seguro al momento de realizar tu compra.
+* Puede confirmar que su tarjeta es válida.
+* Evita hacer el pago con personas intermediarias, transferencias o depósitos.
+* Tener que trasladarse a pagar de forma presencial, puede realizar el pago desde cualquier parte.
 
 ### 3.4.  Prototipo
 
 ### 3.5 FeedBack
 
-La pagina deberiía ser mas limpia a la vista, poder elegir la fecha, y porder tener una mejor distribucion y mas interacción.
+La pagina debería ser mas limpia a la vista, poder elegir la fecha, y porder tener una mejor distribución y mas interacción.
 
 ### 3.6 Imagen Final 
 
