@@ -74,7 +74,7 @@ nav .nav-rigth-section img{
     height: 20px;
     border: 1px solid #a1bdb7d5;
     border-radius: 10px;
-} 
+}
 .main-input-container:hover{
     box-shadow: 0 1px 6px 0 #646769;
     border-radius: 10px;
@@ -90,12 +90,12 @@ main .main-input-container .search-icon{
     position: relative;
     padding: 0.5px;
 }
-/*---  iamgen de portada  ----*/
+/*---  imagen de portada  ----*/
 main  .portada {
    display: flex;
    justify-content: center;
    align-items: center;
-    margin: 1rem auto; 
+    margin: 1rem auto;
 }
 main .new-ingresos p{
     font:small;
@@ -113,10 +113,12 @@ main .buton-selection{
 main .buton-selection  img{
     display: flex;
     width: 200px;
-    height: 250px; 
+    height: 250px;
     margin-top: 50px;
     padding:0  80px;
 }
+
+
 main .buton-selection p{
     font-size: 12px;
     padding: 0;
@@ -171,7 +173,7 @@ margin: 70px 0 ;
     padding: 5px 12px;
     transition: .3s ease all;
     border-radius: 20px;
-   
+
 }
 
 .btn-comprar {
@@ -340,7 +342,7 @@ margin: 70px 0 ;
     display: flex;
    display: none;
    background-color: #111111bd;
-   
+
 }
 .modal-Incompleto{
     margin: auto;
