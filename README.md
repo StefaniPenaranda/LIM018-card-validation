@@ -48,6 +48,8 @@ Vanesa en una joven de 18 años, a ella le gusta mucho esta a la moda y verse bi
 
 ### 3.4.  Prototipo
 
+lINK: LIM018-card-validation.github.io
+
 ### 3.5 FeedBack
 
 La pagina debería ser mas limpia a la vista, poder elegir la fecha, y porder tener una mejor distribución y mas interacción.
